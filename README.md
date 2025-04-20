@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> Investigate operation of character device driver.
 
 ---
 
@@ -20,15 +20,13 @@
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> This repo includes small demos to test operation of character device driver.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ Register the character device with Linux Kernel (allocate device number, create device node, create class)
 
 ---
 
@@ -37,21 +35,31 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - MATLAB
+  - Linux kernel
+  - Ubuntu
+  - C Linux
+  - Makefile
 
 ### Source
 
-- *.fig: design GUI
-- *.m: main app
+- *.c: main app
+- Makefile: make utility to build
+- *.ko: kernel object (add to kernel), link from other *.o files
+- *.mod: describe module, used in build progress
+- *.mod.c: metadata about kernel module
+- *.o: object file
+- Module.symvers: contain symbol list (func, var...) exported by kernel and modules
+- modules.order: list modules by build order
 
 ### Usage
 
-- Open file *.m in MATLAB
-- Change folder to location containing source code
-- Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
+- cd to workspace folder
+- Make file: **$ make**
+- Install module: **$ sudo insmod *.ko**
+- Check info of module: **$ modinfo *.ko**
+- Check operation of kernel in real-time: **$ sudo dmesh -wH**
+- Remove module: **$ sudo rmmod *.ko**
 
 ### Reference
 
-- 
+- https://www.udemy.com/course/character-device-drivers-in-deep/

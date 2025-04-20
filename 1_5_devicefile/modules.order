@@ -1,0 +1,1 @@
+/home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/6_devicefile/hello.o

@@ -1,0 +1,1 @@
+savedcmd_/home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/6_devicefile/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/6_devicefile/"$$0) }' > /home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/6_devicefile/hello.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/1_major_minor/modules.order := {   echo /home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/1_major_minor/hello1.o; :; } > /home/danh21/Documents/Linux_Device_Driver/Character_Device_Drivers_in_deep/1_major_minor/modules.order
