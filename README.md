@@ -55,10 +55,10 @@
 
 - cd to workspace folder
 - Make file: **$ make**
-- Install module: **$ sudo insmod *.ko**
-- Check info of module: **$ modinfo *.ko**
+- Install module: **$ sudo insmod .ko**
+- Check info of module: **$ modinfo .ko**
 - Check operation of kernel in real-time: **$ sudo dmesh -wH**
-- Remove module: **$ sudo rmmod *.ko**
+- Remove module: **$ sudo rmmod .ko**
 
 ### Reference
 
