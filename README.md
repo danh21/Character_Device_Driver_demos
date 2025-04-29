@@ -27,6 +27,7 @@
 ## ✨ Features
 
 - ✅ Register the character device with Linux Kernel (allocate device number, create device node, create class)
+- ✅ Test file operations (open, close, read, write) between kernal and user
 
 ---
 

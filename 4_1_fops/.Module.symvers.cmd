@@ -1,0 +1,1 @@
+savedcmd_/home/danh21/Documents/Linux_Device_Driver/Character_Device_Driver_demos/1_fops/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/danh21/Documents/Linux_Device_Driver/Character_Device_Driver_demos/1_fops/Module.symvers -T /home/danh21/Documents/Linux_Device_Driver/Character_Device_Driver_demos/1_fops/modules.order -i Module.symvers -e 
