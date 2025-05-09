@@ -27,7 +27,9 @@
 ## ✨ Features
 
 - ✅ Register the character device with Linux Kernel (allocate device number, create 1 device node / multiple device nodes, create class)
-- ✅ Test file operations (open, close, read, write, seek) between kernal and user
+- ✅ Test file operations (open, close, read, write, seek, ioctl) between kernel and user
+- ✅ Ability to compatible to 32-bit .exe
+- ✅ Send signal from kernel module to process
 
 ---
 
