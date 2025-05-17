@@ -30,6 +30,8 @@
 - ✅ Test file operations (open, close, read, write, seek, ioctl) between kernel and user
 - ✅ Ability to compatible to 32-bit .exe
 - ✅ Send signal from kernel module to process
+- ✅ Control access to device file
+- ✅ Operation of capabilities
 
 ---
 
