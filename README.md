@@ -32,6 +32,7 @@
 - ✅ Send signal from kernel module to process
 - ✅ Control access to device file
 - ✅ Operation of capabilities
+- ✅ Test misc driver
 
 ---
 
